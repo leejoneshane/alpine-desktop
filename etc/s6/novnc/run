@@ -1,0 +1,4 @@
+#!/bin/sh
+
+#s6-setuidgid foo x11vnc -create -nopw
+/root/noVNC/utils/launch.sh --listen 80
